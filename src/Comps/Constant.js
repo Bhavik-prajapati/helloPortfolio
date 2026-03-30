@@ -6,9 +6,9 @@ export const profile = {
   phone: "+91 96382 71908",
   resume: "/Bhavik_Prajapati_Resume.pdf",
   summary:
-    "Full stack software engineer focused on scalable web products, clean user experiences, and backend systems that stay reliable in production.",
+    "Full stack software engineer focused on scalable web products, reliable backend systems, and GenAI automations that solve real business workflows.",
   intro:
-    "I build modern applications with Angular, React.js, Node.js, Express.js, Python, and microservices architecture. My recent work spans CRM platforms, e-signature workflows, ML-powered review analysis, and chatbot automation.",
+    "I build modern applications with Angular, React.js, Node.js, Express.js, Python, and microservices architecture. My recent work spans CRM platforms, e-signature workflows, ML-powered review analysis, chatbot automation, and GenAI workflow automations using tools like n8n and Power Automate.",
   availability: "Open to software engineering opportunities and product-focused teams.",
   links: {
     github: "https://github.com/Bhavik-prajapati",
@@ -39,15 +39,23 @@ export const highlights = [
 ];
 
 export const featuredProjects = [
-  {
-    title: "Kondesk CRM",
-    type: "Enterprise Product",
+   {
+    title: "Aura Immigration Chatbot",
+    type: "AI Automation",
     summary:
-      "Built core modules for business automation, user management, and workflow optimization in a production CRM used by business teams.",
-    stack: ["Angular", "Node.js", "REST APIs", "SQL"],
-    impact: "Delivered end-to-end features that improved usability and operational flow.",
+      "Built backend intelligence modules for a chatbot that improved response automation and made user conversations more useful and consistent.",
+    stack: ["Node.js", "Python", "APIs", "Automation"],
+    impact: "Improved conversation accuracy and automation quality.",
   },
-  {
+    {
+    title: "Revupro Review Intelligence",
+    type: "ML-Driven Internal Product",
+    summary:
+      "Developed an ML-based sentiment analysis pipeline to process customer reviews and turn unstructured feedback into actionable signals.",
+    stack: ["Python", "NLP", "Machine Learning", "Automation"],
+    impact: "Automated review analysis for faster business insights.",
+  },
+    {
     title: "Konsign e-Signature Platform",
     type: "Enterprise Product",
     summary:
@@ -56,53 +64,28 @@ export const featuredProjects = [
     impact: "Helped ship secure workflows and scalable backend services.",
   },
   {
-    title: "Revupro Review Intelligence",
-    type: "ML-Driven Internal Product",
+    title: "Kondesk CRM",
+    type: "Enterprise Product",
     summary:
-      "Developed an ML-based sentiment analysis pipeline to process customer reviews and turn unstructured feedback into actionable signals.",
-    stack: ["Python", "NLP", "Machine Learning", "Automation"],
-    impact: "Automated review analysis for faster business insights.",
-  },
-  {
-    title: "Aura Immigration Chatbot",
-    type: "AI Automation",
-    summary:
-      "Built backend intelligence modules for a chatbot that improved response automation and made user conversations more useful and consistent.",
-    stack: ["Node.js", "Python", "APIs", "Automation"],
-    impact: "Improved conversation accuracy and automation quality.",
-  },
-  {
-    title: "YouTube Clone",
-    type: "Personal Project",
-    summary:
-      "A frontend project focused on API integration, reusable UI components, and responsive layouts inspired by a real-world product experience.",
-    stack: ["React.js", "RapidAPI", "Material UI"],
-    impact: "Strengthened component architecture and API consumption skills.",
-    link: "https://yt2-clone.netlify.app/",
-  },
-  {
-    title: "JWT Authentication App",
-    type: "Personal Project",
-    summary:
-      "Authentication-focused application covering authorization flows, protected routes, and token-based access patterns in a MERN-style setup.",
-    stack: ["React.js", "Node.js", "Express.js", "JWT"],
-    impact: "Explored secure auth flows and backend route protection.",
-    link: "https://github.com/Bhavik-prajapati/YoutubeClone",
+      "Built core modules for business automation, user management, and workflow optimization in a production CRM used by business teams.",
+    stack: ["Angular", "Node.js", "REST APIs", "SQL"],
+    impact: "Delivered end-to-end features that improved usability and operational flow.",
   },
 ];
 
 export const skillGroups = [
   {
-    title: "Frontend",
-    items: ["React.js", "Angular", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"],
-  },
-  {
-    title: "Backend",
-    items: ["Node.js", "Express.js", "REST APIs", "Microservices", "Python"],
-  },
-  {
-    title: "Data & DevOps",
-    items: ["MySQL", "MongoDB", "Microsoft SQL Server", "Docker", "AWS", "CI/CD", "Linux"],
+    title: "GENAI",
+    items: [
+      "AI Automation",
+      "GenAI Workflows",
+      "Prompt Engineering",
+      "LLM Integrations",
+      "n8n",
+      "Power Automate",
+      "Chatbot Automation",
+      "Workflow Orchestration",
+    ],
   },
   {
     title: "Engineering Focus",
@@ -115,6 +98,19 @@ export const skillGroups = [
       "Git/GitHub",
     ],
   },
+  {
+    title: "Backend",
+    items: ["Node.js", "Express.js", "REST APIs", "Microservices", "Python"],
+  },
+  {
+    title: "Frontend",
+    items: ["React.js", "Angular", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"],
+  },
+  {
+    title: "Data & DevOps",
+    items: ["MySQL", "MongoDB", "Microsoft SQL Server", "Docker", "AWS", "CI/CD", "Linux"],
+  },
+  
 ];
 
 export const experience = [
@@ -127,7 +123,8 @@ export const experience = [
       "Develop high-performance enterprise applications with Angular and Node.js.",
       "Designed scalable REST APIs and microservices that improved backend data retrieval efficiency by 25%.",
       "Delivered full stack features across frontend UI, backend services, database design, testing, and deployment.",
-      "Collaborated on CRM, e-signature, ML, and chatbot products with cross-functional teams.",
+      "Collaborated on CRM, e-signature, ML, chatbot, and automation-focused products with cross-functional teams.",
+      "Worked on automation workflows and business process improvements using modern tools including n8n and Power Automate.",
     ],
   },
   {
